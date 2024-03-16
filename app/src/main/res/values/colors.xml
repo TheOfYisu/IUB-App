@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="btn_blue">#1E232C</color>
+    <color name="btn_white">#FFFFFF</color>
+    <color name="btn_back_border">#A2A2A3</color>
+    <color name="dark_gray">#6A707C</color>
+    <color name="primary">#35C2C1</color>
+    <color name="dark">#1E232C</color>
+    <color name="inp_bacgraund">#F7F8F9</color>
+    <color name="red">#Ff0000</color>
+    <color name="gree">#4CAF50</color>
+</resources>

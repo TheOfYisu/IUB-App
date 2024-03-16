@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.UpdateActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_back_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_backgroud_back"
+            android:padding="15dp"
+            app:srcCompat="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/title_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/title_update"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_inp_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_inp_email"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/inp_email_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inp_radius"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/btn_back_border"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/label_inp_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_inp_password"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/inp_password_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/btn_back_border"
+            android:background="@drawable/inp_radius"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/label_inp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_inp_name"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/inp_name_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/btn_back_border"
+            android:background="@drawable/inp_radius"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/label_inp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_inp_phone"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/inp_phome_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inp_radius"
+            android:ems="10"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/btn_back_border"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_error_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_chm_register_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background_blue"
+            android:text="@string/btn_register_update"
+            android:textColor="@color/btn_white"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

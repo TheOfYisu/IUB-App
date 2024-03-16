@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">IUB App</string>
+
+    <!--    main-->
+    <string name="title_main">IUB</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_registrer">Register</string>
+
+    <!--    login and register-->
+    <string name="title_login">Bienvenido de nuevo!</string>
+    <string name="inp_email">Correo electrónico</string>
+    <string name="inp_password">Contraseña</string>
+    <string name="text_reset_password">Olvide mi contraseña</string>
+    <string name="btn_chm_login">Iniciar sesión</string>
+    <string name="text_register_login_1">¿No tienes una cuenta?</string>
+    <string name="text_register_login_2">Regístrate ahora</string>
+
+    <!--    register-->
+    <string name="title_register">¡Hola! Regístrese para comenzar</string>
+    <string name="inp_name">Nombres</string>
+    <string name="inp_phome">Numero de celular</string>
+    <string name="btn_chm_register">Registrar</string>
+    <string name="text_login_register_1">¿Ya tienes una cuenta?</string>
+    <string name="text_login_register_2">Inicia sesión ahora</string>
+
+    <!-- actions-->
+    <string name="title_actions">Hola, IUB</string>
+    <string name="btn_call">Llamar</string>
+    <string name="btn_email">Email</string>
+    <string name="btn_msn">MSN</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_logout">Cerrar sesion</string>
+
+    <!-- update-->
+    <string name="title_update">¡Hola! Quieres actualizar tus datos</string>
+    <string name="btn_register_update">Guardar cambios</string>
+
+    <!-- reset password-->
+    <string name="title_reset_password">¿Has olvidado tu contraseña?</string>
+    <string name="text_info_password">¡No te preocupes! Por favor ingrese la dirección de correo electrónico vinculada con su cuenta.</string>
+    <string name="btn_reset_password">Enviar código</string>
+
+    <!-- reset item users-->
+    <string name="title_item_users">Listado de usuarios</string>
+
+    <string name="btn_back_ma"> Atras </string>
+
+    <!-- label input update-->
+    <string name="label_inp_name">Nombre:</string>
+    <string name="label_inp_email">Correo:</string>
+    <string name="label_inp_password">Contraseña:</string>
+    <string name="label_inp_phone">Telefono:</string>
+
+    <!-- error form register - update -->
+    <string name="error_email">Correo incorrecto, revice el correo.</string>
+    <string name="error_inp_vacios">Revise que no tega campos vacios.</string>
+    <string name="error_phone">Telefono incorrecto, tiene que tener 10 digitos.</string>
+</resources>
